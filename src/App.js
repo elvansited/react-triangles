@@ -56,7 +56,6 @@ class App extends React.Component {
     
   }
   drawShape(determinedForm){
-    console.log('there is thsi determined form' + determinedForm)
     if(determinedForm == 'equilateral' || determinedForm == 'scalenes' || determinedForm == 'isosceles'){
       this.state.mustDisplayTriangle = true;
       if(determinedForm =='equilateral'){
