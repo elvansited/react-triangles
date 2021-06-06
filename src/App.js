@@ -66,7 +66,7 @@ class App extends React.Component {
         this.state.renderTriangle = [200,100, 250,100, 350, 200];
       }
       else if(determinedForm =='isosceles'){
-        this.state.renderTriangle = [0,100, 50,100, 0, 150];
+        this.state.renderTriangle = [300,100, 350,100, 300, 150];
       }
     }else {
         this.state.renderTriangle = [0,0];
